@@ -1,4 +1,5 @@
 #!/bin/bash
+#装机脚本
 read -p "hostname?" name
 echo "$name" > /etc/hostname
 while :
